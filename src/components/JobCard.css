@@ -1,0 +1,88 @@
+
+
+.jobCard{
+    border: 1px solid lightgrey;
+    border-radius: 18px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 0px 25px;
+    padding-top: 20px;
+    position: relative;
+    width: 370px;
+    
+
+}
+/* Header section */
+header{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.logo img{
+    width: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content{
+    width: 300px;
+}
+.content p,.content h3{
+    margin: 0px;
+}
+
+/* Footer section */
+.footer{
+    margin: 20px 0px;
+    align-items: center;
+
+}
+
+
+.salary p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Job type - wFH/WFO */
+.jobtype{
+    background-color: rgb(242, 242, 242);
+    color: blue;
+    /* width: 100px; */
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+    top: -15px;
+    border-radius: 4px;
+
+}
+.jobtype p{
+    margin:0px;
+    padding: 4px 4px;
+   
+}
+
+/* Apply link section */
+.apply button{
+    background-color: darkslateblue;
+   color: white;
+   font-size: 14px;
+   padding: 6px 12px;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   border-radius: 8px;
+   border: 1px solid transparent;
+}
+
+.apply{
+    z-index: 1;
+    position: absolute;
+    right: 25px;
+    bottom: 25px; 
+
+}
+.apply button img {
+    filter: invert(100%); 
+}
