@@ -1,6 +1,5 @@
 import './JobCard.css'
-import logo from '../assets/mcdonald-logo.svg'
-import applylink from '../assets/apply.svg'
+import applylink from '/public/assets/apply.svg' 
 
 function JobCard(props) {
     return (
