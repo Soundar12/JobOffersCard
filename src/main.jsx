@@ -4,6 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import JobCard from './components/JobCard.jsx'
 import mcdonald from '../public/assets/mcdonald-logo.svg'
+import instagram from '../public/assets/instagram-2-1-logo-svgrepo-com.svg'
+import andriod from '../public/assets/android-logo-svgrepo-com.svg'
+import xbox from '../public/assets/xbox-one-logo-svgrepo-com.svg'
+import amazon from '../public/assets/amazon-icon-logo-svgrepo-com.svg'
+import bmw from '../public/assets/bmw-logo-svgrepo-com.svg'
 
 const offers=[
   {
@@ -18,7 +23,7 @@ const offers=[
 
   },
   {
-    "logo": "../public/assets/instagram-2-1-logo-svgrepo-com.svg",
+    "logo": instagram,
     "companyName": "Instagram",
     "role":"SDE - II",
     "location":"Mumbai",
@@ -29,7 +34,7 @@ const offers=[
 
   },
   {
-    "logo": "/public/assets/android-logo-svgrepo-com.svg",
+    "logo": andriod,
     "companyName": "Andriod",
     "role":"Machine Learning Engineer",
     "location":"Bengaluru",
@@ -40,7 +45,7 @@ const offers=[
 
   },
   {
-    "logo": "../../public/assets/xbox-one-logo-svgrepo-com.svg",
+    "logo": xbox,
     "companyName": "XBOX-ONE",
     "role":"Software Engineer",
     "location":"Bengaluru",
@@ -51,7 +56,7 @@ const offers=[
 
   },
   {
-    "logo": "public/assets/amazon-icon-logo-svgrepo-com.svg",
+    "logo": amazon,
     "companyName": "Amazon",
     "role":"Back-end Developer​",
     "location":"Chennai, Salem, Coimbatore",
@@ -62,7 +67,7 @@ const offers=[
 
   },
   {
-    "logo": "public/assets/bmw-logo-svgrepo-com.svg",
+    "logo": bmw,
     "companyName": "BMW",
     "role":"Machine Learning Engineer",
     "location":"Gurgaon",
