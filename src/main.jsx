@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import JobCard from './components/JobCard.jsx'
-import job from '../public/assets/'
 
 const offers=[
   {
