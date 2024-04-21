@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import JobCard from './components/JobCard.jsx'
+import mcdonald from '../public/assets/mcdonald-logo.svg'
 
 const offers=[
   {
-    "logo": "./public/assets/mcdonald-logo.svg",
+    "logo": mcdonald,
     "companyName": "Goldman Sachs",
     "role":"Associate-Software Engineer",
     "location":"Bengaluru",
