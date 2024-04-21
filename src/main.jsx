@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import JobCard from './components/JobCard.jsx'
+import job from '../public/assets/'
 
 const offers=[
   {
@@ -28,7 +29,7 @@ const offers=[
 
   },
   {
-    "logo": "public/assets/android-logo-svgrepo-com.svg",
+    "logo": "/public/assets/android-logo-svgrepo-com.svg",
     "companyName": "Andriod",
     "role":"Machine Learning Engineer",
     "location":"Bengaluru",
@@ -39,7 +40,7 @@ const offers=[
 
   },
   {
-    "logo": "public/assets/xbox-one-logo-svgrepo-com.svg",
+    "logo": "../../public/assets/xbox-one-logo-svgrepo-com.svg",
     "companyName": "XBOX-ONE",
     "role":"Software Engineer",
     "location":"Bengaluru",
