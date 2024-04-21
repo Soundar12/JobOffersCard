@@ -74,14 +74,19 @@ const offers=[
 ]
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='cards'>
+  
+
+   <div className='cards'>
   {
   offers.map((item)=> {
   return (<JobCard logo={item.logo} name={item.companyName} role={item.role} location={item.location} jobType={item.jobType} minSalary={item.minSalary} maxSalary={item.maxSalary}>  </JobCard>)
 })
 
   }
+ </div> 
+ 
+ 
  
 
-  </div> 
+ 
 )
