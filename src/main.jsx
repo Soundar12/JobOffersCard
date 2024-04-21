@@ -6,7 +6,7 @@ import JobCard from './components/JobCard.jsx'
 
 const offers=[
   {
-    "logo": "public/assets/mcdonald-logo.svg",
+    "logo": "./public/assets/mcdonald-logo.svg",
     "companyName": "Goldman Sachs",
     "role":"Associate-Software Engineer",
     "location":"Bengaluru",
@@ -17,7 +17,7 @@ const offers=[
 
   },
   {
-    "logo": "public/assets/instagram-2-1-logo-svgrepo-com.svg",
+    "logo": "../public/assets/instagram-2-1-logo-svgrepo-com.svg",
     "companyName": "Instagram",
     "role":"SDE - II",
     "location":"Mumbai",
