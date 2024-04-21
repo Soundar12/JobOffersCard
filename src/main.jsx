@@ -6,7 +6,7 @@ import JobCard from './components/JobCard.jsx'
 
 const offers=[
   {
-    "logo": "src/assets/mcdonald-logo.svg",
+    "logo": "public/assets/mcdonald-logo.svg",
     "companyName": "Goldman Sachs",
     "role":"Associate-Software Engineer",
     "location":"Bengaluru",
@@ -17,7 +17,7 @@ const offers=[
 
   },
   {
-    "logo": "src/assets/instagram-2-1-logo-svgrepo-com.svg",
+    "logo": "public/assets/instagram-2-1-logo-svgrepo-com.svg",
     "companyName": "Instagram",
     "role":"SDE - II",
     "location":"Mumbai",
@@ -28,7 +28,7 @@ const offers=[
 
   },
   {
-    "logo": "src/assets/android-logo-svgrepo-com.svg",
+    "logo": "public/assets/android-logo-svgrepo-com.svg",
     "companyName": "Andriod",
     "role":"Machine Learning Engineer",
     "location":"Bengaluru",
@@ -39,7 +39,7 @@ const offers=[
 
   },
   {
-    "logo": "src/assets/xbox-one-logo-svgrepo-com.svg",
+    "logo": "public/assets/xbox-one-logo-svgrepo-com.svg",
     "companyName": "XBOX-ONE",
     "role":"Software Engineer",
     "location":"Bengaluru",
@@ -50,7 +50,7 @@ const offers=[
 
   },
   {
-    "logo": "src/assets/amazon-icon-logo-svgrepo-com.svg",
+    "logo": "public/assets/amazon-icon-logo-svgrepo-com.svg",
     "companyName": "Amazon",
     "role":"Back-end Developer​",
     "location":"Chennai, Salem, Coimbatore",
@@ -61,7 +61,7 @@ const offers=[
 
   },
   {
-    "logo": "src/assets/bmw-logo-svgrepo-com.svg",
+    "logo": "public/assets/bmw-logo-svgrepo-com.svg",
     "companyName": "BMW",
     "role":"Machine Learning Engineer",
     "location":"Gurgaon",
